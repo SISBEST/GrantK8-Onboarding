@@ -9,7 +9,7 @@ collections:
   - name: 'lessons'
     label: 'Lesson'
     format: 'json'
-    folder: 'content/blog'
+    folder: 'content/lessons'
     create: true
     slug: '{{sid}}'
     editor:
