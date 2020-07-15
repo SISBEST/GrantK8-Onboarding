@@ -7,7 +7,7 @@ public_folder: /img
 
 collections:
   - name: 'lessons'
-    label: 'Blog'
+    label: 'Lesson'
     format: 'json'
     folder: 'content/blog'
     create: true
