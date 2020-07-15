@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'lessons'
+    label: 'Blog'
+    format: 'json'
+    folder: 'content/blog'
+    create: true
+    slug: '{{sid}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Section ID', name: 'sid', widget: 'number' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
