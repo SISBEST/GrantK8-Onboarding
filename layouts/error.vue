@@ -2,15 +2,15 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Grant K8 Onboarding
+        Page Not Found
       </h1>
       <div class="links">
         <a
-          href="/learn/0"
+          href="/"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Start
+          Home
         </a>
       </div>
     </div>
